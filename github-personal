@@ -1,4 +1,0 @@
-Host github-personal
-    HostName github.com
-    IdentityFile ~/.ssh/github.pem
-    IdentitiesOnly yes
