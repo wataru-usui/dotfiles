@@ -28,5 +28,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.inlayHints.enabled": "offUnlessPressed"
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.stickyScroll.enabled": false,
+  "editor.cursorBlinking": "solid"
 }
