@@ -30,5 +30,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.stickyScroll.enabled": false,
-  "editor.cursorBlinking": "solid"
+  "editor.cursorBlinking": "solid",
+  "workbench.editor.empty.hint": "hidden",
+  "rust-analyzer.cargo.allFeatures": true,
 }
