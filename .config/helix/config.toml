@@ -4,11 +4,39 @@ theme = "base16_transparent"
 color-modes = true
 true-color = true
 
+[keys.insert]
+C-left = "move_prev_word_start"
+C-right = "move_next_word_start"
+C-up = "move_line_up"
+C-down = "move_line_down"
+S-left = "extend_char_left"
+S-right = "extend_char_right"
+S-up = "extend_line_up"
+S-down = "extend_line_down"
+C-S-left = "extend_prev_word_start"
+C-S-right = "extend_next_word_start"
+C-S-up = "extend_line_up"
+C-S-down = "extend_line_down"
+
 [keys.normal]
 C-left = "move_prev_word_start"
 C-right = "move_next_word_start"
 C-up = "move_line_up"
 C-down = "move_line_down"
+S-left = "extend_char_left"
+S-right = "extend_char_right"
+S-up = "extend_line_up"
+S-down = "extend_line_down"
+C-S-left = "extend_prev_word_start"
+C-S-right = "extend_next_word_start"
+C-S-up = "extend_line_up"
+C-S-down = "extend_line_down"
+
+[keys.select]
+C-left = "extend_prev_word_start"
+C-right = "extend_next_word_start"
+C-up = "extend_line_up"
+C-down = "extend_line_down"
 S-left = "extend_char_left"
 S-right = "extend_char_right"
 S-up = "extend_line_up"
