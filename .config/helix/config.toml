@@ -1,6 +1,7 @@
 theme = "base16_transparent"
 
 [editor]
+color-modes = true
 true-color = true
 
 [keys.normal]
@@ -16,8 +17,3 @@ C-S-left = "extend_prev_word_start"
 C-S-right = "extend_next_word_start"
 C-S-up = "extend_line_up"
 C-S-down = "extend_line_down"
-
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
