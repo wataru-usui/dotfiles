@@ -3,6 +3,7 @@ theme = "base16_transparent"
 [editor]
 color-modes = true
 true-color = true
+preview-completion-insert = false
 
 [keys.insert]
 C-left = "move_prev_word_start"
