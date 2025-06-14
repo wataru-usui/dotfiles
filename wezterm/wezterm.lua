@@ -5,6 +5,7 @@ local config = wezterm.config_builder()
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.window_decorations = 'RESIZE'
+config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
 
 config.color_scheme = 'GitHub Dark'
 config.font = wezterm.font('UDEV Gothic')
