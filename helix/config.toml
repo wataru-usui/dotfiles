@@ -1,8 +1,9 @@
 theme = "base16_transparent"
 
 [editor]
-color-modes = true
 true-color = true
+color-modes = true
+auto-completion = false
 preview-completion-insert = false
 
 [keys.insert]
